@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ post.title }} - 郭庭瑋的部落格</title>
+    <style>
+        body { font-family: "微軟正黑體"; background-color: #f9f9f9; margin: 30px; }
+        h1 { color: #333; }
+        .content { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 5px #ccc; }
+        a { text-decoration: none; color: #007BFF; }
+    </style>
+</head>
+<body>
+    <a href="/">← 回首頁</a>
+    <div class="content">
+        <h1>{{ post.title }}</h1>
+        <p><strong>作者：</strong>{{ post.author }}</p>
+        <p>{{ post.content }}</p>
+    </div>
+</body>
+</html>
